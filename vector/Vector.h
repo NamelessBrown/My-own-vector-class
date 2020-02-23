@@ -49,4 +49,17 @@ namespace Nameless
 		T y;
 
 	};
+
+	template<class T>
+	class Vector3
+	{
+
+
+	public:
+		T x;
+		T y;
+		T z;
+	};
+
+
 }
