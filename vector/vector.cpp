@@ -9,7 +9,6 @@ int main()
     Nameless::Vector<int> vec(9, 99);
     Nameless::Vector<int> vec2(10, 10);
 
-
     Nameless::Vector<int> vec3 = vec + vec2;
 
     std::cout << vec.x << ' ' << vec.y << '\n';
@@ -20,6 +19,15 @@ int main()
 
     std::cout << vec4.x << ' ' << vec4.y << '\n';
     std::cout << vec3.x << ' ' << vec3.y << '\n';
+
+    //Testing if you can do any type + any type. You can't. Good!
+    /* Nameless::Vector<double> doubleVec(5.6, 5.4);
+
+    Nameless::Vector<std::string> string("Joe", "Boddy");
+
+    Nameless::Vector<int> free = doubleVec + string; */
+
+
 
 }
 

@@ -6,6 +6,8 @@ namespace Nameless
 	class Vector
 	{
 	public:
+		Vector() = delete;
+
 		Vector(T xx, T yy)
 			:x(xx), y(yy)
 		{
@@ -32,6 +34,8 @@ namespace Nameless
 			temp.y -= vec.y;
 			return temp;
 		}
+
+
 
 	public:
 		T x;
