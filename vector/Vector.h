@@ -35,7 +35,14 @@ namespace Nameless
 			return temp;
 		}
 
+		bool operator==(const Vector& vec)
+		{
+			if (x == vec.x && y == vec.y)
+				return true;
+			else
+				return false;
 
+		}
 
 	public:
 		T x;

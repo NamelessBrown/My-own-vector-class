@@ -27,7 +27,22 @@ int main()
 
     Nameless::Vector<int> free = doubleVec + string; */
 
+    Nameless::Vector<int> vector(5, 5);
+    Nameless::Vector<int> vector2(5, 5);
 
+    if (vector == vector2)
+    {
+        std::cout << "YUSSSSSSSSS! " << '\n';
+    }
+
+    if (vector == vec)
+    {
+        std::cout << "YUSSSSSSSSS! " << '\n';
+    }
+    else
+    {
+        std::cout << "NOOOOOOOOOOOO! " << '\n';
+    }
 
 }
 
