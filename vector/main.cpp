@@ -44,5 +44,9 @@ int main()
         std::cout << "NOOOOOOOOOOOO! " << '\n';
     }
 
+    Nameless::Vector3<int> vec3Vector(4, 5, 7);
+    Nameless::Vector3<int> vec4Vector(vec3Vector);
+    
+
 }
 
