@@ -16,9 +16,26 @@ namespace Nameless
 		{
 		}
 
+		Vector operator+(const Vector& vec)
+		{
+			Vector<T> temp(x, y);
+
+			temp.x += vec.x;
+			temp.y += vec.y;
+			return temp;
+		}
+
+		Vector operator-(const Vector& vec)
+		{
+			Vector<T> temp(x, y);
+			temp.x -= vec.x;
+			temp.y -= vec.y;
+			return temp;
+		}
 
 	public:
 		T x;
 		T y;
+
 	};
 }
